@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Inicio de Primavera</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f7f7f7;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('https://arreglofloral.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-18-at-6.39.40-PM.jpeg');
+            background-size: 60%; /* Ajusta el tamaño de la imagen de fondo */
+            background-position: center;
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            filter: brightness(0.9); /* Ajusta el brillo de la imagen de fondo */
+        }
+        .message {
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo más transparente */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            max-width: 80%;
+            backdrop-filter: blur(5px); /* Efecto de desenfoque */
+        }
+        .message h1 {
+            font-size: 3em;
+            color: #d35400; /* Color cálido para el título */
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .message p {
+            font-size: 1.5em;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .message .signature {
+            font-size: 1.2em;
+            color: #333;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .image {
+            margin-top: 30px;
+            border-radius: 50%;
+            width: 250px; /* Tamaño de la imagen de tu novia */
+            height: 250px; /* Tamaño de la imagen de tu novia */
+            border: 6px solid #fff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            object-fit: cover; /* Asegura que la imagen se ajuste bien */
+        }
+        /* Animación suave para el mensaje */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .message {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <h1>Feliz Inicio de Primavera</h1>
+            <p>Para mi novia, que ilumina mi vida como el sol en primavera.</p>
+            <p class="signature">Att: Chuss Mejía</p>
+        </div>
+        <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/485078198_9346184965467782_486940688871511561_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHds4nkQf0w6HEbnwoxjiRcts35PagmQRG2zfk9qCZBESYiqv830nCAQ2CWh5DJvRD5dAWTC5x4o9Ta5rVWq3VL&_nc_ohc=_iK70p6AXwgQ7kNvgEh7xGt&_nc_oc=AdmLky3uaF4fiP_L4kZsP-37RylS1iE2Z1v0LSCT-9Fv2K-Ya8OgajezrgihdKXnUkWx4xZ5-KpNEvhci8dXOmyj&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=_fB0LDzz6E5QLhpQPFdsqg&oh=00_AYErOjo34dw0WlZZBXoHjZKNxeYbeeNi8TjV0lNGfsweeQ&oe=67E36A62" alt="Mi novia" class="image">
+    </div>
+</body>
+</html>
